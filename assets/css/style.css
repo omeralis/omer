@@ -1003,6 +1003,7 @@ padding-left: 15px;
 .contact .info {
   width: 100%;
   background: #fff;
+  margin: 0 7rem;
 }
 
 .contact .info i {
@@ -1147,7 +1148,11 @@ padding-left: 15px;
     transform: rotate(360deg);
   }
 }
-
+@media (min-width: 774px) {
+  .contact .info {
+    margin: 0 7rem;
+  }
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
