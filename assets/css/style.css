@@ -554,7 +554,7 @@ section {
   transform: rotateY(180deg);
 }
 .card__side--back-1 {
-  background-image: linear-gradient(to right bottom, #2196f380, #4a4e68);
+  background-image: linear-gradient(to right bottom, #0563bb, #0563bb99);
 }
 .card:hover .card__side--front {
   transform: rotateY(-180deg);
