@@ -4,9 +4,16 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 (function() {
   "use strict";
-
+    /* active add and remove */
+    $(document).ready(function(){
+      $('ul li').click(function(){
+        $('li').removeClass("active");
+        $(this).addClass("active");
+    });
+    });
   /**
    * Easy selector helper function
    */
