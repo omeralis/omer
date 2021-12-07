@@ -435,6 +435,12 @@ section {
   border-radius: 30px;
   font-family: fantasy;
 }
+@media (max-width: 576px) {
+  .about {
+    padding: 0 !important;
+}
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
