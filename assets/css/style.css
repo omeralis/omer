@@ -494,7 +494,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #45505b;
 }
 
@@ -564,7 +564,7 @@ section {
 }
 .card__description {
   padding: 5em 0;
-  font-family: monospace;
+  font-family:"Raleway", sans-serif;
 }
 .card__description svg {
   width: 1.5em;
