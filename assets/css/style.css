@@ -412,10 +412,12 @@ section {
   height: 100%;
   text-align: center;
   padding: 1rem;
+  transition: all 0.5s ease 0s;
 }
 .card:hover{
-  background: #ffffff;
-  box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%);
+  background: #0563bb;
+  color: #ffffff;
+  box-shadow: 2px -1px 5px 1px rgb(5 99 187);
 }
 .about-icon {
   border-radius: 50%;
@@ -429,6 +431,7 @@ section {
 }
 .about-icon:hover {
   background: #fff;
+  border: 2px solid #ffffff;
   box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%);
 }
 .btn-cv{
@@ -574,6 +577,9 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.Resume{
+  padding: 10px 1.2rem !important;
+}
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -674,6 +680,7 @@ padding-left: 15px;
 }
 
 .portfolio .portfolio-wrap {
+  height: 200px;
   transition: 0.3s;
   position: relative;
   overflow: hidden;
